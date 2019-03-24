@@ -1,0 +1,36 @@
+name: pwfinal
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: 0.7.0
+  google_sign_in: 3.2.4
+  firebase_database: 1.0.5
+  firebase_messaging: 2.1.0
+  shimmer: ^1.0.0
+  async_loader: ^0.1.2
+  flutter_rating: ^0.0.2
+  dynamic_theme: ^1.0.0
+  cupertino_icons: ^0.1.2
+  shared_preferences: 0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    -  assets/glogo.png
+  fonts:
+    -  family: Lato
+       fonts:
+         - asset: assets/fonts/lato.ttf
+           weight: 400
